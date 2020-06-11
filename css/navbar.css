@@ -32,6 +32,7 @@
   color: #fff;
   content: "\f00d";
   font-family: "FontAwesome";
+  transition: all 0.2s linear 0s;
   transition-property: all 0.2s linear 0s;
   -moz-transition: all 0.2s linear 0s;
   -webkit-transition: all 0.2s linear 0s;
@@ -82,6 +83,7 @@
   -moz-transition: all 0.2s linear 0s;
   -webkit-transition: all 0.2s linear 0s;
   -o-transition: all 0.2s linear 0s;
+  transition: all 0.2s linear 0s;
 }
 .wrap ul.wrap-nav li a:hover {
   color: #f0f0f0;
@@ -128,6 +130,7 @@
   -moz-transition: all 0.2s linear 0s;
   -webkit-transition: all 0.2s linear 0s;
   -o-transition: all 0.2s linear 0s;
+  transition: all 0.2s linear 0s;
 }
 .social-icon:hover {
   background: #34b484;

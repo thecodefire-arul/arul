@@ -9,6 +9,7 @@
   top: 0;
   width: 100%;
   height: 100vh;
+  -webkit-logical-height: 100vh;
   background: linear-gradient(
     313deg,
     rgba(242, 122, 56, 1) 10%,
