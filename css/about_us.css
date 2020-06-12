@@ -4,20 +4,22 @@
   text-decoration: none;
 }
 
-.cLine {
-  width: 15%;
+.cLine{
   border: 2px solid darkblue;
-  margin-top: 4px;
   border-radius: 10px;
+  width: 15%;
+}
+
+h1{
+  margin-bottom: 5px;
 }
 
 /*Main Section Starts Here*/
 
 #main{
   width: 100%;
-  margin-top: 0;
   background-color: #f9f9f9;
-  margin-top: 10vh;
+  margin-top: 60px;
 }
 
 #main .para{
