@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.cLine {
+  width: 15%;
+  border: 2px solid darkblue;
+  margin-top: 4px;
+  border-radius: 10px;
+}
+
+/*Main Section Starts Here*/
+
+#main{
+  width: 100%;
+  background-color: #f9f9f9;
+  margin-top: 10vh;
+}
+
+#main .para{
+  width: 85%;
+  padding: 20px;
+}
+
+#main .para h1{
+  font-size: 40px;
+  color: darkblue;
+}
+
+#main .para p{
+  padding: 20px 0;
+  font-size: 22px;
+  letter-spacing: 1px;
+  color: #123;
+}
+
+#main .img{
+  width: 100%;
+}
+
+#main .img img{
+  width: 100%;
+}
+
+/*Main Section Ends Here*/
+
+/*What We Do Starts Here*/
+
+#what-we-do{
+  width: 100%;
+}
+
+#what-we-do .heading{
+  width: 80%;
+  padding: 25px;
+}
+
+#what-we-do .heading h1{
+  font-size: 25px;
+}
+
+#what-we-do .card{
+  width: 80%;
+  padding: 0 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+#what-we-do .card .box{
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 5px;
+  width: 60%;
+  margin: 20px auto;
+}
+
+#what-we-do .card .box .img{
+  width: 30%;
+}
+
+#what-we-do .card .box .img img{
+  width: 100%;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+#what-we-do .card .box p{
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+/*What We Do Ends Here*/
