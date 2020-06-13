@@ -9,6 +9,7 @@
 
 h1{
     margin: 0;
+    font-size: 30px;
 }
 
 .heading{
@@ -189,3 +190,66 @@ h1{
 }
 
 /* Web Sells Ends Here */
+
+/* Doamin Starts Here */
+
+#domain{
+    width: 100%;
+    background-color: #fff;
+    justify-content: center;
+    align-content: center;
+}
+
+#domain .heading{
+    padding: 0 20px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+#domain .heading h1{
+    color: #000;
+    font-size: 28px;
+}
+
+#domain .box{
+    margin: 25px auto;
+    width: 80%;
+    height: 15vh;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    background-color: #F1F8FC;
+    align-items: center;
+    justify-content: center;
+}
+
+#domain .box .number{
+    position: relative;
+    background-color: #7AC1EA;
+    text-align: center;
+    width: 80%;
+    height: 80%;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#domain .box h2{
+    font-size: 20px;
+    line-height: 12vh;
+    color: #000;
+}
+
+#domain .box .text{
+    margin: 0 auto;
+}
+
+#domain .box .img{
+    width: 75%;
+    margin: 0 auto;
+}
+
+#domain .box .img img{
+    width: 100%;
+}
+
+/* Doamin Ends Here */
