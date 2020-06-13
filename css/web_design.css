@@ -17,7 +17,6 @@ h1{
 }
 
 .heading h1{
-    color: #fff;
     font-size: 30px;
     font-weight: 700;
 }
@@ -32,13 +31,20 @@ h1{
 /* Home Section Starts Here */
 
 #home{
-    height: 100vh;
+    height: 800px;
     margin-top: 60px;
     background: linear-gradient(315.68deg, #F97619 3.72%, rgba(255, 255, 255, 0) 113.35%), #E6316D;
 }
 
-#home .cLine{
-    border-color: #fff;
+#home .heading{
+    text-align: center;
+}
+
+#home .heading h1{
+    font-size: 50px;
+    color: #fff;
+    font-weight: lighter;
+    letter-spacing: 1px;
 }
 
 #home .sub-heading{
@@ -52,7 +58,7 @@ h1{
 }
 
 #home .para{
-    padding: 0 40px;
+    padding: 0 30px;
     padding-top: 25px;
 }
 
@@ -77,7 +83,7 @@ h1{
 }
 
 #home .img{
-    width: 80%;
+    width: 85%;
     position: absolute;
     margin-top: 70px;
     left: 50%;
