@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Arbutus Slab", serif !important;
+}
+
+h1{
+    margin: 0;
+}
+
+.heading{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.heading h1{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.cLine{
+    border: 2px solid #000;
+    border-radius: 10px;
+    width: 20%;
+    margin-top: 2px;
+}
+
+/* Home Section Starts Here */
+
+#home{
+    height: 100vh;
+    margin-top: 60px;
+    background: linear-gradient(315.68deg, #F97619 3.72%, rgba(255, 255, 255, 0) 113.35%), #E6316D;
+}
+
+#home .cLine{
+    border-color: #fff;
+}
+
+#home .sub-heading{
+    text-align: center;
+    padding-top: 25px;
+}
+
+#home .sub-heading h3{
+    color: #fff;
+    font-size: 25px;
+}
+
+#home .para{
+    padding: 0 40px;
+    padding-top: 25px;
+}
+
+#home .para p{
+    color: #fff;
+    font-size: 20px;
+}
+
+#home .btn{
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+#home .call{
+    color: #000;
+    font-size: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: #F54F4F;
+    border: 1px solid #B96B6B;
+    padding: 15px 10px;
+    border-radius: 10px;
+}
+
+#home .img{
+    width: 80%;
+    position: absolute;
+    margin-top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#home .img img{
+    width: 100%;
+    margin: auto;
+}
+
+/* Home Section Ends Here */
+
+/* Why Section Starts Here */
+
+#why .heading h1{
+    color: #000;
+}
+
+#why .cLine{
+    margin-top: 4px;
+}
+
+#why .card{
+    margin-top: 40px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#why .card .box{
+    margin: auto;
+    margin-bottom: 40px;
+    width: 60%;
+    height: 100%;
+    padding: 30px 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+#why .card .box .img{
+    width: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+#why .card .box .img img{
+    width: 100%;
+    filter: invert(10%) sepia(80%) saturate(2213%) hue-rotate(212deg) brightness(93%) contrast(103%);
+}
+
+#why .card .box .sub-heading{
+    margin-top: 60px;
+}
+
+#why .card .box .sub-heading h3{
+    color: #447091;
+    font-size: 25px;
+}
+
+#why .card .box .para{
+    margin-top: 20px;
+    padding: 0 5px;
+}
+
+#why .card .box .para p{
+    font-size: 20px;
+    color: #000;
+}
+
+/* Why Section Ends Here */
+
+/* Chance Starts Here */
+
+.chance{
+    width: 60%;
+    margin: 20px auto;
+    background: rgba(78, 145, 244, 0.71);
+    box-shadow: 0px 4px 37px rgba(0, 0, 0, 0.3);
+    padding: 10px 0;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.chance a{
+    width: 100%;
+    color: #fff;
+    font-size: 20px;
+}
+
+/* Chance Ends Here */
+
+/* Web Sells Starst Here */
+
+.web-sells{
+    width: 100%;
+}
+
+.web-sells img{
+    width: 100%;
+}
+
+/* Web Sells Ends Here */
