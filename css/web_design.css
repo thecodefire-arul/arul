@@ -68,7 +68,8 @@
   padding: 10px 25px;
   font-size: 20px;
   color: black;
-  width: fit-content;
+  width: 13rem;
+  text-align: center;
 }
 
 /* Home Section Ends Here */
