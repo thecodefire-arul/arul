@@ -1,20 +1,16 @@
 /* Carousel Starts Here */
 
 #carousel img {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 #carousel{
-    height: 60vh;
-    width: 100%;
-    margin-top: 60px;
-    font-family: sans-serif;
-    font-weight: 700;
-    font-size: 1em;
-    line-height: 1.4;
-    letter-spacing: 2px;
-    color: #fff;
+  height: 60vh;
+  width: 98%;
+  margin: 0 auto;
+  margin-top: 75px;
+  margin-bottom: 15px;
 }
 
 #carousel span {
@@ -60,6 +56,7 @@
 
 #carousel .slider-nav {
   text-align: center;
+  align-items: center;
   position: relative;
   width: 100%;
   z-index: 1;
@@ -69,11 +66,10 @@
 #carousel .arrow-prev,
 #carousel .arrow-next{
   margin: 0 10%;
-  width: 28px;
+  margin-top: 10px;
+  width: 20px;
   display: inline-block;
   vertical-align: top;
-  margin-top: 9px;
-  font-size: 1.5rem;
   color: #2e2e2e;
 }
 
@@ -85,8 +81,6 @@
 #carousel .slider-dots {
   list-style: none;
   display: inline-block;
-  padding-left: 0;
-  margin-bottom: 0;
 }
 
 #carousel .slider-dots li {
@@ -101,9 +95,11 @@
   color: #363636;
 }
 
-@media screen and (max-width:550px) {
+@media screen and (max-width: 768px) {
   #carousel{
     height: 30vh;
+    margin-top: 65px;
+    margin-bottom: 5px;
   }
 
   #carousel .slide p{
@@ -112,7 +108,7 @@
 
   #carousel .arrow-prev,
   #carousel .arrow-next{
-      width: 20px;
+      width: 15px;
   }
 }
 
