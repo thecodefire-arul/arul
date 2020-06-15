@@ -1,267 +1,262 @@
 @import url("https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    font-family: "Arbutus Slab", serif !important;
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Arbutus Slab", serif !important;
 }
 
-h1{
-    margin: 0;
-    font-size: 30px;
-}
-
-.heading{
-    padding-top: 20px;
-    padding-left: 20px;
-}
-
-.heading h1{
-    font-size: 30px;
-    font-weight: 700;
-}
-
-.cLine{
-    border: 2px solid #000;
-    border-radius: 10px;
-    width: 20%;
-    margin-top: 2px;
-}
-
-/* Home Section Starts Here */
-
-#home{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    background: linear-gradient(
-    313deg,
-    rgba(242, 122, 56, 1) 10%,
-    rgba(234, 80, 127, 1) 70%
+#main {
+  width: 100%;
+  height: 40rem;
+  margin-top: 60px;
+  background: linear-gradient(
+    -225deg,
+    rgba(235, 87, 129, 1) 0%,
+    rgba(246, 127, 86, 1) 100%
   );
 }
 
-#home .text{
-    height: 100%;
+.main-wrap {
+  width: 85%;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-#home .heading{
-    text-align: center;
+.main-text {
+  text-align: center;
+  color: white;
 }
 
-#home .heading h1{
-    font-size: 50px;
-    color: #fff;
-    font-weight: lighter;
-    letter-spacing: 1px;
+.main-text * {
+  margin: 0;
 }
 
-#home .sub-heading{
-    text-align: center;
-    padding-top: 25px;
+.main-text h1 {
+  font-size: 35px;
+  line-height: 40px;
+  padding: 2rem 0 0.2rem;
 }
 
-#home .sub-heading h3{
-    color: #fff;
-    font-size: 25px;
+.main-text h2 {
+  font-size: 23px;
+  color: white;
+  padding: 1rem 0;
 }
 
-#home .para{
-    padding: 0 30px;
-    padding-top: 25px;
+.main-text p {
+  font-size: 19px;
+  line-height: 24px;
+  text-align: left;
 }
 
-#home .para p{
-    color: #fff;
-    font-size: 20px;
+.main-wrap img {
+  width: 65%;
+  margin: 0 auto;
 }
 
-#home .btn{
-    position: relative;
-    display: block;
-    margin: 30px;
-}
-
-#home .call{
-    color: #000;
-    font-size: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    background-color: #F54F4F;
-    border: 1px solid #B96B6B;
-    padding: 15px 10px;
-    border-radius: 10px;
-}
-
-#home .img{
-    height: auto;
-    width: 85%;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-#home .img img{
-    width: 100%;
+.main-wrap a {
+  background: #f54f4f;
+  border: 1px solid #b96b6b;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.3);
+  border-radius: 54px;
+  padding: 10px 25px;
+  font-size: 20px;
+  color: black;
+  width: 13rem;
+  text-align: center;
 }
 
 /* Home Section Ends Here */
 
 /* Why Section Starts Here */
 
-#why .heading h1{
-    color: #000;
+.heading {
+  width: 75%;
+  margin: 2rem auto;
+  text-align: center;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-#why .cLine{
-    margin-top: 4px;
+#why .heading h1 {
+  color: #000;
+  line-height: 35px;
+  margin: 0;
 }
 
-#why .card{
-    margin-top: 40px;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+#why .cLine {
+  width: 20%;
+  background: black;
+  height: 1px;
+  margin-top: 4px;
 }
 
-#why .card .box{
-    margin: auto;
-    margin-bottom: 40px;
-    width: 60%;
-    height: 100%;
-    padding: 30px 20px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-    text-align: center;
+#why .card {
+  margin-top: 40px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
-#why .card .box .img{
-    width: 50px;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-
+#why .card .box {
+  margin: auto;
+  margin-bottom: 40px;
+  width: 60%;
+  height: 100%;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0px 4px 30px rgba(235, 85, 129, 0.69);
 }
 
-#why .card .box .img img{
-    width: 100%;
-    filter: invert(10%) sepia(80%) saturate(2213%) hue-rotate(212deg) brightness(93%) contrast(103%);
+#why .card .box .img {
+  width: 50px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-#why .card .box .sub-heading{
-    margin-top: 60px;
+#why .card .box .img img {
+  width: 100%;
+  filter: invert(10%) sepia(80%) saturate(2213%) hue-rotate(212deg)
+    brightness(93%) contrast(103%);
 }
 
-#why .card .box .sub-heading h3{
-    color: #447091;
-    font-size: 25px;
+#why .card .box .sub-heading {
+  margin-top: 60px;
 }
 
-#why .card .box .para{
-    margin-top: 20px;
-    padding: 0 5px;
+#why .card .box .sub-heading h3 {
+  color: #447091;
+  font-size: 25px;
 }
 
-#why .card .box .para p{
-    font-size: 20px;
-    color: #000;
+#why .card .box .para {
+  margin-top: 20px;
+  padding: 0 5px;
+}
+
+#why .card .box .para p {
+  font-size: 20px;
+  color: #000;
 }
 
 /* Why Section Ends Here */
 
 /* Chance Starts Here */
 
-.chance{
-    width: 60%;
-    margin: 20px auto;
-    background: rgba(78, 145, 244, 0.71);
-    box-shadow: 0px 4px 37px rgba(0, 0, 0, 0.3);
-    padding: 10px 0;
-    border-radius: 15px;
-    text-align: center;
+.chance {
+  width: 60%;
+  margin: 20px auto;
+  background: rgba(78, 145, 244, 0.71);
+  box-shadow: 0px 4px 37px rgba(0, 0, 0, 0.3);
+  padding: 10px 0;
+  border-radius: 15px;
+  text-align: center;
 }
 
-.chance a{
-    width: 100%;
-    color: #fff;
-    font-size: 20px;
+.chance a {
+  width: 100%;
+  color: #fff;
+  font-size: 20px;
 }
 
 /* Chance Ends Here */
 
 /* Web Sells Starst Here */
 
-.web-sells{
-    width: 100%;
+.web-sells {
+  width: 100%;
 }
 
-.web-sells img{
-    width: 100%;
+.web-sells img {
+  width: 100%;
 }
 
 /* Web Sells Ends Here */
 
 /* Doamin Starts Here */
 
-#domain{
-    width: 100%;
-    background-color: #fff;
-    justify-content: center;
-    align-content: center;
+#domain {
+  width: 100%;
+  background-color: #fff;
+  justify-content: center;
+  align-content: center;
 }
 
-#domain .heading{
-    padding: 0 20px;
-    padding-top: 25px;
-    padding-bottom: 10px;
+#domain .heading {
+  padding: 0 20px;
+  padding-top: 25px;
+  padding-bottom: 10px;
 }
 
-#domain .heading h1{
-    color: #000;
-    font-size: 28px;
+#domain .heading h1 {
+  color: #000;
+  font-size: 28px;
 }
 
-#domain .box{
-    margin: 25px auto;
-    width: 80%;
-    height: 15vh;
-    display: grid;
-    grid-template-columns: 25% 50% 25%;
-    background-color: #F1F8FC;
-    align-items: center;
-    justify-content: center;
+#domain .box {
+  margin: 25px auto;
+  width: 80%;
+  height: 15vh;
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  background-color: #f1f8fc;
+  align-items: center;
+  justify-content: center;
 }
 
-#domain .box .number{
-    position: relative;
-    background-color: #7AC1EA;
-    text-align: center;
-    width: 50%;
-    height: 50%;
-    align-items: center;
-    border-radius: 50%;
-    margin: 0 auto;
+#domain .box .number {
+  position: relative;
+  background-color: #7ac1ea;
+  text-align: center;
+  width: 50px;
+  align-items: center;
+  border-radius: 50%;
+  margin: 0 auto;
 }
 
-#domain .box .number h2{
-    line-height: 7.5vh;
+#domain .box .number h2 {
+  line-height: 7.5vh;
 }
 
-#domain .box h2{
-    font-size: 16px;
-    color: #000;
+#domain .box h2 {
+  font-size: 24px;
+  color: #000;
+  text-align: center;
+  line-height: 30px;
 }
 
-#domain .box .text{
-    margin: 0 auto;
+#domain .box .text {
+  margin: 0 auto;
 }
 
-#domain .box .img{
-    width: 75%;
-    margin: 0 auto;
+#domain .box .img {
+  width: 75%;
+  margin: 0 auto;
 }
 
-#domain .box .img img{
-    width: 100%;
+#domain .box .img img {
+  width: 100%;
+}
+
+.d-heading {
+  width: 85%;
+  margin: 3rem auto 2rem;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.d-heading span {
+  border-bottom: 1px solid black;
 }
 
 /* Doamin Ends Here */
