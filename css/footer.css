@@ -10,7 +10,6 @@
 
 #footer {
   background: #fbfbfd;
-  height: 90vh;
 }
 
 #footer .row {
@@ -156,7 +155,7 @@ button:focus {
   transition: all 0.2s linear;
 }
 
-#footer .new_footer_top .f_social_icon a img{
+#footer .new_footer_top .f_social_icon a img {
   width: 50%;
   line-height: 46px;
 }
