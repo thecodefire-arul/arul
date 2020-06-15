@@ -32,9 +32,18 @@ h1{
 /* Home Section Starts Here */
 
 #home{
-    height: 800px;
-    margin-top: 60px;
-    background: linear-gradient(315.68deg, #F97619 3.72%, rgba(255, 255, 255, 0) 113.35%), #E6316D;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(
+    313deg,
+    rgba(242, 122, 56, 1) 10%,
+    rgba(234, 80, 127, 1) 70%
+  );
+}
+
+#home .text{
+    height: 100%;
 }
 
 #home .heading{
@@ -69,8 +78,9 @@ h1{
 }
 
 #home .btn{
-    padding-top: 40px;
-    padding-left: 40px;
+    position: relative;
+    display: block;
+    margin: 30px;
 }
 
 #home .call{
@@ -84,16 +94,15 @@ h1{
 }
 
 #home .img{
+    height: auto;
     width: 85%;
-    position: absolute;
-    margin-top: 70px;
+    position: relative;
     left: 50%;
     transform: translateX(-50%);
 }
 
 #home .img img{
     width: 100%;
-    margin: auto;
 }
 
 /* Home Section Ends Here */
