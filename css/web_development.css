@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Arbutus Slab", serif !important;
+}
+
+body{
+    justify-content: center;
+}
+
+h1{
+    margin: 10px 0;
+}
+
+.cLine {
+    width: 20%;
+    border: 2px solid #e6316d;
+    margin: auto;
+    margin-top: 4px;
+    border-radius: 10px;
+}
+
+/* Main Section Starts Here*/
+
+#main {
+    width: 100%;
+    height: 40rem;
+    background: linear-gradient(
+      -225deg,
+      rgba(235, 87, 129, 1) 0%,
+      rgba(246, 127, 86, 1) 100%
+    );
+  }
+  
+  .main-wrap {
+    width: 85%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .main-text {
+    text-align: center;
+    color: white;
+  }
+  
+  .main-text * {
+    margin: 0;
+  }
+  
+  .main-text h1 {
+    font-size: 35px;
+    line-height: 40px;
+    padding: 2rem 0 0.2rem;
+  }
+  
+  .main-text h2 {
+    font-size: 23px;
+    color: white;
+    padding: 1rem 0;
+  }
+  
+  .main-text p {
+    font-size: 19px;
+    line-height: 24px;
+    text-align: left;
+  }
+  
+  .main-wrap .btn {
+    background: #f54f4f;
+    border: 1px solid #b96b6b;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.3);
+    border-radius: 54px;
+    padding: 10px 25px;
+    font-size: 20px;
+    color: #382727;
+    width: 25rem;
+    text-align: center;
+    margin: 10px auto;
+  }
+
+  .main-wrap .img {
+    width: 25rem;
+    height: 20em;
+    margin: 0 auto;
+    background: url(../images/web-development-main.png);
+    background-size: cover;
+    background-position: center;
+    mix-blend-mode: multiply;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img .play{
+    position: relative;
+    margin: auto;
+    margin-top: 20%;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: white;
+    z-index: 5;
+    display: block;
+    text-align: center;
+    box-shadow: 0px 0px 0px 20px rgba(0, 0, 0, 0.1);
+    animation: blink 1.5s infinite;
+  }
+
+  .img .play img{
+    margin-top: 32%;
+    height: 35%;
+    width: 35%;
+  }
+
+  @keyframes blink {
+    0% {
+      box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.1);
+    }
+  
+    50% {
+      box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0);
+    }
+  
+    100% {
+      box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.1);
+    }
+  }
+  
+  /* Main Section Ends Here */
+
+  /* Covered Section Starts Here */
+#covered{
+    width: 85%;
+    margin: 0 auto;
+}
+
+#covered .heading{
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+}
+
+#covered .heading h1{
+    font-size: 25px;
+}
+
+#covered .heading .cLine{
+    width: 30%;
+    border-color: #000;
+}
+
+  /* Covered Section Ends Here */

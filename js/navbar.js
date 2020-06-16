@@ -16,11 +16,13 @@
 $(document).ready(function() {
   $(".navBtn a").click(function() {
     $(".overlay").show(1000);
+    $(".navBar").fadeOut(10);
   });
 });
 
-$(document).ready(function() {
-  $(".overlay").click(function() {
-    $(".overlay").hide(1000);
-  });
+  $(document).ready(function() {
+    $(".close-nav img").click(function() {
+      $(".overlay").hide(1000);
+      $(".navBar").fadeIn(1000);
+    });
 });
