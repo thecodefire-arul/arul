@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-family: "Arbutus Slab", serif !important;
+}
+
+body{
+    /*background: #00d2ff;
+    background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);
+    background: linear-gradient(to right, #3a7bd5, #00d2ff);*/
+
+    /* background: #f2709c;
+    background: -webkit-linear-gradient(to right, #ff9472, #f2709c);
+    background: linear-gradient(to right, #ff9472, #f2709c); */
+
+       
+}
+
+#contact{
+    height: 100vh;
+    background: #00d2ff;
+    margin-top: 60px;
+    background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);
+    background: linear-gradient(to right, #3a7bd5, #00d2ff);
+}
+
+/* Form Section Starts Here */
+
+#contact #form{
+    position: absolute;
+    margin-top: 30px;
+    height: 80%;
+    width: 70%;
+    background-color: #ffffff;
+    top: 50%;
+    left: 80%;
+    transform: translate(-80%, -50%);
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.9);
+}
+
+#contact #form .heading{
+    position: absolute;
+    margin: 1% 0;
+    left: 50%;
+    text-align: center;
+}
+
+#contact #form .heading h1{
+    font-size: 30px;
+    color: #164573;
+}
+
+#contact #form .sub-heading{
+    top: 11%;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+}
+
+#contact #form .sub-heading p{
+    color: #d6dde4;
+}
+
+#contact #form .form{
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-100%, -50%);
+    margin-top: 10px;
+}
+
+#contact #form .form input,
+#contact #form .form textarea{
+    margin: 2% 0;
+    width: 60%;
+    padding: 2%;
+    border: none;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+}
+
+#contact #form .form input::placeholder,
+#contact #form .form textarea::placeholder{
+    color: grey;
+}
+
+#contact #form .form input[type=submit]{
+    width: auto;
+    display: block;
+    padding: 3% 10%;
+    border-radius: 20px;
+    background-color: rgb(118, 190, 241);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    box-shadow: 0px 0px 10px #a8d4f2;
+    cursor: pointer;
+}
+
+/* Form Section Ends Here */
+
+#contact #overlay{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    right: 0;
+    bottom: 0;
+    height: 70%;
+    width: 30%;
+    background-color:#0f3f6f;
+}
+
+#contact #overlay .heading{
+    position: relative;
+    padding: 5%;
+}
+
+#contact #overlay .heading h1{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+}
+
+#contact #overlay .sub-heading{
+    margin: 10% auto;
+    padding: 2% 5%;
+    display: flex;
+}
+
+#contact #overlay .sub-heading img{
+    height: 20px;
+    width: 20px;
+}
+
+#contact #overlay .sub-heading p{
+    margin-left: 10%;
+    color: #305983;
+    font-weight: 700;
+}
+
+#contact #overlay .social-links{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#contact #overlay .social-links img{
+    height: 20px;
+    width: 20px;
+}
+
+
+@media (max-width: 768px){
+    #contact{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #contact #form{
+        height: 80%;
+        width: 90%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #contact #form .heading{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #contact #form .sub-heading{
+        position: absolute;
+        left: 20%;
+    }
+    
+    #contact #form .form{
+        width: 70%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #contact #form .form input,
+    #contact #form .form textarea{
+        margin: 5% 0;
+        width: 100%;
+        padding: 4% 2%;
+    }
+
+    #contact #form .form input[type=submit]{
+        width: auto;
+        padding: 5% 20%;
+    }
+
+    #contact #overlay{
+        position: relative;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        margin-top: 80vh;
+        margin-bottom: 20px;
+        width: 70%;
+    }
+}

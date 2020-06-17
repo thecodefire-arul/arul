@@ -134,6 +134,18 @@ h1{
   
   /* Main Section Ends Here */
 
+  /* High Five Starts Here */
+
+.high-five{
+  width: 95%;
+}
+
+.high-five img{
+  width: 100%;
+}
+
+  /* High Five Ends Here */
+
   /* Covered Section Starts Here */
 #covered{
     width: 85%;
@@ -205,3 +217,64 @@ h1{
 }
 
   /* Covered Section Ends Here */
+
+/* Special Section Starts Here */
+
+#special{
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 0;
+}
+
+#special .heading{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+
+#special .heading h1{
+	font-size: 25px;
+	color: #000;
+}
+
+#special .heading .cLine{
+	width: 30%;
+}
+
+#special .img{
+	width: 90%;
+	margin: auto;
+	padding: 20px 0;
+}
+
+#special .img .box{
+	width: 50%;
+	margin-left: 20px;
+	text-align: center;
+}
+
+#special .img .box img{
+	width: 100%;
+}
+
+#special .img .box h2{
+	font-size: 22px;
+	color: #000;
+}
+
+#special .img .plus{
+	margin-top: -30px;
+	margin-right: 15px;
+	width: 100%;
+	width: 50%;
+	float: right;
+	text-align: center;
+}
+
+#special .img .plus h1{
+	font-size: 80px;
+	color: #000;
+}
+
+/* Special Section Starts Here */
