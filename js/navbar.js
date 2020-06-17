@@ -14,7 +14,7 @@
 //Menu Button
 
 $(document).ready(function() {
-  $(".navBtn a").click(function() {
+  $(".navBtn img").click(function() {
     $(".overlay").show(1000);
     $(".navBar").fadeOut(10);
   });
