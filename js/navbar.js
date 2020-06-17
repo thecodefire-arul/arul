@@ -20,8 +20,22 @@ $(document).ready(function() {
   });
 });
 
-  $(document).ready(function() {
-    $(".close-nav img").click(function() {
+$(document).ready(function() {
+  $(".close-nav img").click(function() {
+    $(".overlay").hide(1000);
+    $(".navBar").fadeIn(1000);
+  });
+});
+
+$(document).ready(function() {
+    $(".nav-links").click(function() {
+      $(".overlay").hide(1000);
+      $(".navBar").fadeIn(1000);
+    });
+});
+
+$(document).ready(function() {
+    $(".nav-headings").click(function() {
       $(".overlay").hide(1000);
       $(".navBar").fadeIn(1000);
     });
