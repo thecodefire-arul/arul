@@ -16,7 +16,7 @@
   padding-top: 40px;
   margin-left: 40px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 @media screen and (max-width: 768px) {
@@ -138,6 +138,10 @@ button:focus {
 
 #footer .f_widget.about-widget .f_list {
   margin-bottom: 0px;
+}
+
+#footer .f_social_icon{
+  display: flex;
 }
 
 #footer .f_social_icon a {
