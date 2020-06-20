@@ -195,8 +195,14 @@
 }
 
 .ourServices {
-  width: max-content;
   margin: auto;
+}
+
+.ourServices .wrapper{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: center;
+  align-items: center;
 }
 
 /* card styles */
@@ -212,6 +218,7 @@
 .card {
   width: 15rem;
   border: 0.2px solid #e6e2e2;
+  margin: 0 auto;
   margin-top: 2rem;
 }
 
@@ -292,12 +299,13 @@
 }
 
 .digitalJourney img {
-  width: 80%;
+  width: 50%;
 }
 
 .digitalJourney a {
   border: 1px solid #c3a8a8;
   padding: 8px;
+  margin-bottom: 2rem;
   color: black;
   background: rgba(249, 118, 25, 0.72);
   border-radius: 23px;
@@ -307,7 +315,6 @@
 .digitalJourney {
   width: 100%;
   margin: auto;
-  margin-top: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -329,8 +336,14 @@
 }
 
 .ourProcess .heading .cLine {
-  width: 40%;
+  width: 10%;
   border-radius: 10px;
+}
+
+.ourProcess .wrapper{
+  display: grid;
+  grid-template-columns: 30% 30%;
+  justify-content: center;
 }
 
 .pCard {
@@ -364,11 +377,16 @@
 /* Our Speciality Starts Here */
 
 #speciality {
-  height: max-content;
-  width: 90%;
+  position: relative;
+  width: 100%;
+  text-align: center;
   align-items: center;
   justify-content: center;
-  margin: 20px;
+  margin-top: 20px;
+}
+
+#speciality .speciality{
+  margin: 0 auto;
 }
 
 #speciality .speciality .heading {
@@ -378,7 +396,7 @@
 
 #speciality .speciality .para {
   position: relative;
-  margin-left: 10px;
+  margin: 0 auto;
   height: max-content;
   width: 90%;
   border: 10px solid #f27a38;
@@ -395,10 +413,9 @@
 }
 
 #speciality .speciality a {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  margin: 5px 0;
+  position: relative;
+  width: max-content;
+  margin: 20px auto;
   display: block;
   padding: 2% 5%;
   border-radius: 10px;
@@ -448,5 +465,21 @@
 
   .cBox img {
     width: 200px;
+  }
+
+  .ourServices .wrapper{
+    display: block;
+  }
+
+  .digitalJourney img {
+    width: 80%;
+  }
+
+  .ourProcess .heading .cLine {
+    width: 10%;
+  }
+
+  .ourProcess .wrapper{
+    display: block;
   }
 }

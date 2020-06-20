@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>App Design</title>
+
+    <link rel="shortcut icon" href="images/theCodeFire-gradient.png" type="image/x-icon">
+
+    <!-- css linking -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/normalise.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/app_design.css">
+</head>
+<body>
+	<!-- Navbar Starts Here -->
+
+    <section id="NavBar">
+        <nav class="navBar">
+            <div class="logo">
+                <a href="index.html"><img src="images/theCodeFire-enlightn ur code.png" alt="theCodeFire"></a>
+            </div>
+
+            <div class="navBtn">
+                <div class="btn-open">
+                    <img class="menu-svg" src="images/menu.svg" alt="menu">
+                </div>
+            </div>
+        </nav>
+
+        <!-- navbar overlay srart here -->
+        <div class="overlay">
+            <div class="icons">
+                <div class="home">
+                    <a href="index.html">
+                        <img src="images/home.png" alt="Home">
+                    </a>
+                </div>
+
+                <div class="contact">
+                    <a href="contact.html">
+                        <img src="images/phone.png" alt="Contact">
+                    </a>
+                </div>
+
+                <div class="close-nav">
+                    <img src="images/cross.svg" alt="Close Navbar">
+                </div>
+            </div>
+            <div class="wrap">
+                <ul class="wrap-nav">
+                    <li><a class="nav-headings" href="about_us.html">About Us</a>
+                        <ul>
+                            <li><a class="nav-links" href="about_us.html #vision">Our Vision</a></li>
+                            <li><a class="nav-links" href="about_us.html #mission">Our Mission</a></li>
+                            <li><a class="nav-links" href="anout_us.html #team">Team</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="nav-headings" href="index.html #OurServices">Services</a>
+                        <ul>
+                            <li><a class="nav-links" href="#web_design">Web Design</a></li>
+                            <li><a class="nav-links" href="#web_development">Web Development</a></li>
+                            <li><a class="nav-links" href="#app_design">App Designing</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="nav-headings" href="#">Pricing</a>
+                        <ul>
+                            <li><a class="nav-links" href="#">Educational Sector</a></li>
+                            <li><a class="nav-links" href="#">Organisational Sector</a></li>
+                            <li><a class="nav-links" href="#">Commercial Sector</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="social">
+                    <a href="#">
+                        <div class="social-icon">
+                            <img src="images/facebook.svg" alt="Facebook">
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="social-icon">
+                            <img src="images/instagram.svg" alt="Instagram">
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="social-icon">
+                            <img src="images/twitter.svg" alt="Twitter">
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="social-icon">
+                            <img src="images/linkedin.svg" alt="Linkedin">
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="social-icon">
+                            <img src="images/skype.svg" alt="Skype">
+                        </div>
+                    </a>
+                    <p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Navbar Ends Here -->
+
+    <!-- Carousel Starts Here -->
+
+    <section id="carousel">
+        <div class="slider">
+            <div class="slide">
+            	<p style="color: lightcoral;">Designs for All Types of Operating System</p>
+                <img src="images/All OS Supported.jpg" alt="All Type of OS Supported">
+            </div>
+          
+            <div class="slide">
+            	<p style="color: #000;">Analyse all thing before start Designing</p>
+                <img src="images/Analyse.jpg" alt="Analyse">
+            </div>
+          
+            <div class="slide">
+                <p style="color: #fff;">Create a Responsive Design</p>
+                <img src="images/Design.jpg" alt="Design">
+            </div>
+
+            <div class="slide">
+                <p style="color: darkblue;">Make all things happend Step by Step</p>
+                <img src="images/Step by Step.jpg" alt="Step By Step">
+            </div>
+
+            <div class="slide">
+                <p style="color: #fff;">Create a User Friendly Design</p>
+                <img src="images/User Friendly.jpg" alt="User Friendly">
+            </div>
+          
+        </div>
+      
+        <div class="slider-nav">
+            <span class="arrow-prev">
+                <img src="images/left-arrow.svg" alt="Left Arrow">    
+            </span>
+      
+            <ul class="slider-dots">
+            </ul>
+      
+            <span class="arrow-next">
+                <img src="images/right-arrow.svg" alt="Right Arrow">
+            </span>
+        </div>
+    </section>
+
+    <!-- Carousel Ends Here -->
+
+    <!--Main Section Starts Here-->
+
+    <section id="main">
+        <div class="main-wrap">
+            <div class="main-text">
+                <h1>App <br> Designing</h1>
+                <img src="images/App-Design-Main.png" alt="App Design">
+                <h2>Gives Your Business Wings!</h2>
+                <p>theCodeFire is one stop solution for your business to grow on Internet. We design the layout with
+                    latest and modern
+                    technologies that boost up your website load time and revenu generation.</p>
+            </div>
+            <a href="#" class="btn-call">Give Us a Call</a>
+        </div>
+    </section>
+
+    <!--Main Section Ends Here-->
+
+
+
+    <!-- Scripts Linking -->
+    <script src="js/jQuery-3.5.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                $('.scroll-up').css("display", "block");
+            })
+        });
+    </script>
+    <script src="js/carousel.js"></script>
+    <script src="js/navbar.js"></script>
+</body>
+</html>
