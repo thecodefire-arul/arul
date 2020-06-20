@@ -22,12 +22,17 @@ h1 {
 #main {
   width: 100%;
   background-color: #f9f9f9;
+  height: 100vh;
   margin-top: 60px;
+  display: flex;
+  justify-content: center;
 }
 
 #main .para {
-  width: 85%;
-  padding: 20px;
+  width: 100%;
+  position: relative;
+  margin: auto;
+  padding-left: 20px;
 }
 
 #main .para h1 {
@@ -67,14 +72,20 @@ h1 {
   font-size: 25px;
 }
 
-#what-we-do .card {
-  width: 80%;
-  padding: 0 20px;
-  justify-content: center;
+#what-we-do .heading .cLine{
+  width: 8%;
+}
+
+#what-we-do .card{
+  display: grid;
+  grid-template-columns: 23% 23% 23% 23%;
+  width: 100%;
+  justify-content: space-around;
   align-items: center;
 }
 
 #what-we-do .card .box {
+  height: 90%;
   border: 1px solid #000;
   border-radius: 10px;
   padding: 5px;
@@ -101,11 +112,17 @@ h1 {
 
 /* Our Vision Starts Here */
 
-#vision {
+#vision{
   height: 100vh;
+  display: flex;
   background: #00d2ff;
   background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);
   background: linear-gradient(to right, #3a7bd5, #00d2ff);
+}
+
+#vision .text{
+  margin: auto;
+  width: 80%;
 }
 
 #vision .heading {
@@ -129,8 +146,8 @@ h1 {
 }
 
 #vision .img {
-  margin-top: 40px;
-  width: 100%;
+  margin: auto;
+  width: 80%;
 }
 
 #vision .img img {
@@ -143,6 +160,12 @@ h1 {
 
 #mission {
   height: 100vh;
+  display: flex;
+}
+
+#mission .text{
+  margin: auto;
+  width: 80%;
 }
 
 #mission .heading {
@@ -166,7 +189,8 @@ h1 {
 }
 
 #mission .img {
-  width: 100%;
+  margin: auto;
+  width: 80%;
 }
 
 #mission .img img {
@@ -195,17 +219,16 @@ h1 {
   position: relative;
 }
 
-#team .card-wrap {
+#team .container .card-wrapper{
   display: flex;
   align-items: center;
   align-content: center;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: center
   margin: 0 auto;
 }
 
 #team .card {
-  width: 80%;
+  width: 30%;
   background-color: #ebeef8;
   display: flex;
   flex-direction: column;
@@ -288,3 +311,55 @@ h1 {
 }
 
 /*Team Section Ends Here*/
+
+
+@media screen and (max-width: 768px){
+  #main{
+    display: block;
+  }
+
+  #main .para {
+    width: 85%;
+    padding: 20px;
+  }
+
+  #what-we-do .card{
+    display: block;
+  }
+
+  #what-we-do .heading .cLine{
+    width: 30%;
+  }
+
+  #vision{
+    display: block;
+  }
+
+  #vision .text{
+    width: 100%;
+  }
+
+  #vision .img{
+    width: 100%;
+  }
+
+  #mission{
+    display: block;
+  }
+
+  #mission .text{
+    width: 100%;
+  }
+
+  #mission .img{
+    width: 100%;
+  }
+
+  #team .container .card-wrapper{
+    flex-direction: column;
+  }
+
+  #team .container .card-wrapper .card{
+    width: 80%;
+  }
+}
