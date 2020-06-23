@@ -15,20 +15,25 @@
     rgba(235, 87, 129, 1) 0%,
     rgba(246, 127, 86, 1) 100%
   );
+  justify-content: center;
+  align-items: center;
 }
 
-.main-wrap {
-  width: 85%;
+.main-wrap{
+  position: relative;
+  width: 80%;
   margin: auto;
-  height: 100%;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
-.main-text {
+.main-wrap .main-text {
   text-align: center;
   color: white;
+  width: 100%;
+}
+
+.main-wrap .img{
+  width: 100%;
 }
 
 .main-text * {
@@ -51,14 +56,16 @@
   font-size: 19px;
   line-height: 24px;
   text-align: left;
+  margin-bottom: 20px;
 }
 
 .main-wrap img {
-  width: 65%;
+  width: 80%;
   margin: 0 auto;
 }
 
 .main-wrap a {
+  position: relative;
   background: #f54f4f;
   border: 1px solid #b96b6b;
   box-sizing: border-box;
@@ -99,31 +106,36 @@
   margin-top: 4px;
 }
 
-#why .card {
+#why .card{
   margin-top: 40px;
   width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
   justify-content: center;
   align-items: center;
 }
 
-#why .card .box {
+#why .card .box{
   margin: auto;
+  margin-bottom: 20px;
   margin-bottom: 40px;
-  width: 60%;
-  height: 100%;
+  width: 65%;
+  height: 40vh;
   padding: 30px 20px;
   text-align: center;
   box-shadow: 0px 4px 30px rgba(235, 85, 129, 0.69);
 }
 
-#why .card .box .img {
+#why .card .box .img{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
   width: 50px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 #why .card .box .img img {
+  margin: 0 auto;
   width: 100%;
   filter: invert(10%) sepia(80%) saturate(2213%) hue-rotate(212deg)
     brightness(93%) contrast(103%);
@@ -152,8 +164,8 @@
 
 /* Chance Starts Here */
 
-.chance {
-  width: 60%;
+.chance{
+  width: 20%;
   margin: 20px auto;
   background: rgba(78, 145, 244, 0.71);
   box-shadow: 0px 4px 37px rgba(0, 0, 0, 0.3);
@@ -173,7 +185,8 @@
 /* Web Sells Starst Here */
 
 .web-sells {
-  width: 100%;
+  margin: 0 auto;
+  width: 60%;
 }
 
 .web-sells img {
@@ -200,6 +213,12 @@
 #domain .heading h1 {
   color: #000;
   font-size: 28px;
+}
+
+#domain .square{
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: center;
 }
 
 #domain .box {
@@ -259,3 +278,35 @@
 }
 
 /* Doamin Ends Here */
+
+@media screen and (max-width: 768px){
+  .main-wrap{
+    flex-direction: column;
+  }
+
+  #why .card{
+    display: block;
+  }
+
+  #why .card .box{
+    height: 100%;
+  }
+
+  #why .card .box .img{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .chance{
+    width: 60%;
+  }
+
+  .web-sells{
+    width: 100%;
+  }
+
+  #domain .square{
+    display: block;
+  }
+}
