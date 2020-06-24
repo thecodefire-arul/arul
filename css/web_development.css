@@ -226,6 +226,7 @@ h1{
 
 #special{
 	width: 85%;
+  margin: 0 auto;
   justify-content: center;
 	align-items: center;
 }
@@ -288,7 +289,7 @@ h1{
   }
 
   .main-wrap .btn{
-    width: max-content;
+    width: 22em;
     padding: 10px 5px;
     margin: 0 auto;
   }
@@ -320,5 +321,9 @@ h1{
     margin-bottom: 20px;
     width: auto;
     height: 35vh;
+  }
+
+  #special{
+    width: 80%;
   }
 }
